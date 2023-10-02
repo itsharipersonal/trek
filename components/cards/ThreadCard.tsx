@@ -111,7 +111,7 @@ function ThreadCard({
       {/* logo and delete */}
       {!isComment && community && (
         <Link
-          href={`/community/${community.id}`}
+          href={`/communities/${community.id}`}
           className="mt-5 flex items-center"
         >
           <p className=" text-subtle-medium text-gray-1">
